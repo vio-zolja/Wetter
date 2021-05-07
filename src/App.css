@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.App{
+  background: rgba(203, 228, 243, 0.452);
+  max-width: 700px;
+  border: 1px black solid;
+  border-radius: 15px;
+  margin-top: 5%;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+  margin: 5% 0 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input1{
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 350px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input2{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 55px;
+  margin-left: 2%;
+  transition: all ease-in-out 200ms
 }
 
-.App-link {
-  color: #61dafb;
+.input2:hover{
+  background: rgb(255, 255, 216);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Forecast{
+  margin: 5% 0 7% 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.temperature{
+  font-size: 60px;
+}
+
+.WeatherInfo ul{
+  margin: 8% 0 0 0;
+}
+
+.unit{
+  font-size: 45px
 }
